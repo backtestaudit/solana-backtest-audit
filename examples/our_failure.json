@@ -1,0 +1,33 @@
+{
+  "universe": {
+    "pools": 114,
+    "window_hours": 19.9,
+    "pools_per_hour": 143,
+    "selection": "24h volume top-200 snapshot, age<=33h"
+  },
+  "backtest": {
+    "n": 48,
+    "median_pct": 55.7,
+    "win_rate": 87,
+    "split_half": {
+      "first": 78.9,
+      "second": 39.3
+    }
+  },
+  "live": {
+    "n": 148,
+    "size_sol": 1.0,
+    "total_pnl_sol": -85.1,
+    "win": 24,
+    "win_rate": 16.2,
+    "per_trade_pct": -57.5,
+    "round_trip_cost_pct": 2.8
+  },
+  "unbiased_benchmark": {
+    "active_pool_1h_drift_pct": -3.6,
+    "up": 15,
+    "down": 53,
+    "died_top_activity_pct": 59.7,
+    "rug_30m_pct": 14.24
+  }
+}
